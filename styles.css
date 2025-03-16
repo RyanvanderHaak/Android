@@ -3,3 +3,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+button {
+  height: 85px;
+  width: 25%;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, rgba(139, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 165, 0, 0.5), rgba(128, 0, 128, 0.5), rgba(0, 0, 139, 0.5), rgba(0, 0, 255, 0.5));
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: black;
+}
