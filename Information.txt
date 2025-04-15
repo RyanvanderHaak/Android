@@ -1,0 +1,20 @@
+Information about the Widget app; Functionality, Installation and use-cases
+
+1. This app is made to put text on your homescreen. You can type text in the app, and place a widget on your homescreen. The text you've typed will appear on this widget.
+
+2. Widget is free and available on https://ryanvanderhaak.github.io/Android. Download the .zip file from this website and extract the map. You'll find a .apk file and this file you're reading now. This file is for extra information. When you've the file on your phone of other compatible device, you can use this steps to install the app with the .apk file:
+
+	1. Make sure the file is on your phone
+	2. Open My Files or another browse app for your files. Open the .apk file and give the permissions for the app to install the app. You may have to toggle Play Protect or other protections off, 	because installing an .apk may be dangerous. This app is safe, so it won't matter and you won't get a virus with this app.
+	3. When all permissions given, you can click on install and follow the steps on your phone to finish the installation.
+	4. Done! You've installed Widget, now you can use the app! When there are updates, you can download a new file from the website and follow the same steps as above. Your phone will 	give you the option to update the app.
+
+3. When installed, you can use the app with your use-cases. Open the app and type some text. Then you have to hold the app icon on your homescreen and click 'Widgets'. You'll see various widgets with different colors. Hold and drag a widget and place it on your homescreen. The text you've typed will appear on this widget. You can use this to make some quick notes, reminder or other things.
+
+4. This app is a simple project to learn the fundamentals of app-development. I'm still learning and the app won't be perfect. I'll try to update so much as possible, for the best functionality and UX. You can always send me feedback or other suggestions at my GitHub-page. I'll share my apps at this account and the website, so check it out regulary for more apps to download.
+
+
+
+
+Written: 15-4-2025
+Links: https://github.com/RyanvanderHaak		https://ryanvanderhaak.github.io

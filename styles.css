@@ -16,3 +16,9 @@ button {
   font-size: medium;
   color: black;
 }
+
+select {
+  background-color: rgb(255, 153, 0);
+  border-radius: 25px;
+  width: 15vw;
+}

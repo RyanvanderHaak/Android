@@ -11,12 +11,22 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 <body>
+  <div>
+    <label for="languageSelect">🌐 Language:</label>
+    <select id="languageSelect">
+      <option value="nl">🇳🇱 Nederlands</option>
+      <option value="en">🇬🇧 English</option>
+    </select>
+  </div>
+
+  <br>
   <button onclick="window.location.href = 'index.html';">Home</button>
   <br>
-  <p>Dit is de download-pagina van Widget. Widget is een test-app die een knop bevat waarmee je direct naar deze website kan gaan. Deze app heeft ook een widget die een boodschap geeft. Deze hele app was een test en is geen serieuze app met een echt bruikbaar deel.</p>
+  <p id="text01"></p>
   <br>
-  <p>Je kan deze app installeren op jouw telefoon om het te testen en uit te proberen. Hiermee download je een APK-bestand dat je kan openen op je telefoon. Je kan op mijn <a href="https://github.com/Ryanvanderhaak">GitHub-pagina</a> altijd contact opnemen en feedback geven! Klik op de knop hieronder om het downloaden te beginnen!</p>
-  <button onclick="window.location.href = 'Widget-0.4.1.zip';">Download Widget-0.4.1.zip</button>
+  <p id="text02"></p>
+  <button onclick="window.location.href = 'Widget-0.5.3.zip';">Download Widget-0.5.3</button>
   <br>
+  <script src="LanguagePicker.js"></script>
 </body>
 </html>
