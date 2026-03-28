@@ -2,23 +2,106 @@ body {
   background-color: antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-inline: 10%;
+  font-size: larger;
 }
 
 button {
-  height: 75px;
-  width: 25%;
+  height: 55px;
+  width: 30%;
   border-width: 3px;
   border-color: white;
-  border-radius: 25px;
-  background-image: linear-gradient(to right, rgba(139, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 165, 0, 0.5), rgba(0, 0, 255, 0.5));
+  border-radius: 35px;
+  background-image: linear-gradient(to right, rgb(211, 49, 49), rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 165, 0, 0.5));
   border-style: solid;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-size: large;
   color: black;
+  cursor: pointer;
+  box-shadow:  0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+  transition: 0.2s;
+
+}
+
+button:hover {
+  height: 63px;
+  width: 33%;
+  box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+  transition: 0.3s;
+}
+
+button:active {
+  height: 55px;
+  width: 30%;
+  transform: 0.2s;
 }
 
 select {
-  background-color: rgb(255, 153, 0);
+  background-color: rgb(175, 169, 169);
   border-radius: 25px;
-  width: 15vw;
+  width: 25%;
+  height: 5vh;
+  margin-top: 1%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.appcard {
+  width: 35%;
+  background-color: lightsalmon;
+  border-style: solid;
+  border-radius: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-width: 4px;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.09);
+  transition: 0.2s;
+}
+
+.appcard:hover {
+  width: 37%;
+  transition: 0.3s;
+}
+
+.appcard:active {
+  width: 35%;
+  transform: 0.1s;
+}
+/* Prevents image dragging and selection so the user won't be interrupted while navigating through the site */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+#downloadbutton {
+width: 50%;
+height: 75px;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.09);
+transition: 0.2s;
+}
+
+#downloadbutton:hover {
+  width: 55%;
+  height: 82px;
+  box-shadow:  0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+#downloadbutton:active {
+  width: 50%;
+  height: 75px;
+  transform: 0.2s;
 }

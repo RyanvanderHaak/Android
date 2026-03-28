@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download allerlei Android-apps - Ryan van der Haak</title>
+    <title>Android apps - Ryan van der Haak</title>
+    <!--Thanks to android.com for the icon-->
     <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v030bcccda96ffbfc45363010bea8ba52e77f80d8de5da28f6cb7329ed55ead3b/android/images/favicon.svg">
     <meta name="author" content="Ryan van der Haak">
-    <meta name="keywords" content="Android, APK, Android-app, Apps, Ryan, Ryan van der Haak, Leuke apps, telefoon">
-    <meta name="description" content="Hier kan je verschillende APK-bestanden vinden voor leuke Android-apps voor op je telefoon! Gemaakt door Ryan van der Haak.">
+    <meta name="keywords" content="Android, apps, APK, Widget">
+    <meta name="description" content="Download op deze website de APK-bestanden van mijn eigen Android apps, waaronder Widget.">
     <link rel="stylesheet" href="styles.css">
   </head>
+
 <body>
   <div>
     <label for="languageSelect">🌐 Language:</label>
@@ -20,12 +22,13 @@
   </div>
   <script src="LanguagePicker.js"></script>
   <br>
-  <br>
   <p id="introtext"></p>
-  <h2 id="selectapp"></h2>
-  <button onclick="window.location.href = 'WidgetDownload.html';">Widget</button>
+  <p id="selectapp" style="font-weight: bold; font-size: larger;"></p>
+      <div class="appcard" onclick="window.location.href = 'WidgetDownload.html';">
+          <img style="max-width: 50%; height: auto; border-radius: 35px; display: block; margin: 0 auto; margin-top: 5%;" draggable="false" src="Widget App Icon.png" alt="App icon of Widget">
+            <button style="margin-top: 5%; margin-bottom: 5%; width: 70%;" onclick="window.location.href = 'WidgetDownload.html';">Widget</button>
+      </div>
   <br>
-  <div><h3 id="datetext"></h3><p id="date"></p></div>
   <br>
 </body>
 </html>
