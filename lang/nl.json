@@ -1,8 +1,9 @@
 {
-  "introtext": "Als je een Android-telefoon hebt, ben je hier op de perfecte website! Hier kan je namelijk een aantal APK-bestanden vinden waarmee jij leuke en handige apps kan installeren op je telefoon. Als je een bestand hebt gedownload open je je bestands-beheerder en installeer je dit APK-bestand. Bij elke app zit een tekstbestand met uitleg om de app te installeren.",
+  "introtext": "Op deze website vind je APK's waarmee je leuke en handige apps kunt installeren op je Android telefoon. Bij elke app zit een uitleg om de app te installeren en hoe je het kunt gebruiken.",
   "selectapp": "Selecteer de download-pagina van een app:",
-  "datetext": "Verwachte datum van eerste echte app:",
-  "date": "Juli 2025",
-  "text01": "Dit is de download-pagina van Widget. Widget is een app waarmee je tekst kan typen en deze tekst op een widget kan zetten.",
-  "text02": "Je kan deze app installeren op jouw telefoon om het te testen en uit te proberen. Hiermee download je een APK-bestand dat je kan openen op je telefoon. Je kan via mijn GitHub-profiel altijd contact opnemen en feedback geven! Klik op de knop hieronder om het downloaden te beginnen!"
+  "text01": "Open Widget en typ de tekst die je wilt zien. Vervolgens kun je een widget toevoegen aan je startscherm en zal de tekst die je hebt getypt op de widget verschijnen. Er zijn verschillende kleuren en stijlen om uit te kiezen en er komen er steeds meer bij! ",
+  "text02": "Klik op de knop hieronder om Widget te downloaden. Je downloadt een map met daarin het APK-bestand van de app en een tekstbestand met uitleg. Je moet mogelijk de beveiligingsinstellingen van je apparaat wijzigen, om toe te staan dat er een app buiten de Google Play Store wordt gedownload.",
+  "text03": "Je kunt hiermee ook de app updaten als je Widget al eerder op je apparaat hebt geïnstalleerd. Je telefoon zal dan automatisch vragen of je wilt updaten. Veel plezier!",
+  "demotext": "Bekijk een schermopname van Widget",
+  "demoinfotext": "Dit is een opname van versie 1.0 van Widget. De werkelijke uitstraling kan verschillen, afhankelijk van app-versie, apparaat, Android-versie of regio."
 }
